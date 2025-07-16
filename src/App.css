@@ -34,3 +34,10 @@
   font-size: 24px;
   font-weight: bold;
 }
+
+body {
+  background-color: #D4E5EA; /* ou qualquer cor que quiser */
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+}
