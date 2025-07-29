@@ -10,7 +10,7 @@ const SideBar = () => {
             <ul>
                 <li><FaHome /><Link to="/">Página Inicial</Link></li>
                 <li><FaUser /><Link to="/user">Usuários</Link></li>
-                <li><FaKey /> Chaves</li>
+                <li><FaKey /><Link to="/keys"> Chaves</Link></li>
                 <li><FaTools /> Equipamentos</li>
                 <li><FaClipboardList /> Reservas</li>
                 <li></li>

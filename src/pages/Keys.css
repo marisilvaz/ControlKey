@@ -1,18 +1,18 @@
-.usuarios-container {
+.chaves-container {
   background-color: #e6f2f7;
   padding: 30px;
   height: 100vh;
   overflow-y: auto;
 }
 
-.usuarios-header {
+.chaves-header {
   display: flex;
   justify-content: space-between;
   align-items: center;
   margin-bottom: 20px;
 }
 
-.usuarios-header h2 {
+.chaves-header h2 {
   font-size: 24px;
   font-weight: bold;
   display: flex;
@@ -20,25 +20,25 @@
   gap: 10px;
 }
 
-.usuarios-filtros {
+.chaves-filtros {
   display: flex;
   gap: 20px;
   margin-bottom: 20px;
 }
 
-.usuarios-filtros input,
-.usuarios-filtros select {
+.chaves-filtros input,
+.chaves-filtros select {
   padding: 10px;
   width: 250px;
   border: 1px solid #ccc;
   border-radius: 6px;
 }
 
-.usuarios-acoes {
+.chaves-acoes {
   margin-bottom: 20px;
 }
 
-.usuarios-acoes button {
+.chaves-acoes button {
   padding: 10px 15px;
   margin-right: 10px;
   border: none;
@@ -49,11 +49,11 @@
   transition: background 0.3s;
 }
 
-.usuarios-acoes button:hover {
+.chaves-acoes button:hover {
   background-color: #3399ff;
 }
 
-.usuarios-tabela {
+.chaves-tabela {
   width: 80%;
   border-collapse: collapse;
   background-color: #e6e6ff;
@@ -61,14 +61,14 @@
   overflow: hidden;
 }
 
-.usuarios-tabela th,
-.usuarios-tabela td {
+.chaves-tabela th,
+.chaves-tabela td {
   padding: 12px;
   text-align: center;
   border: 1px solid #c0c0c0;
 }
 
-.usuarios-tabela th {
+.chaves-tabela th {
   background-color: #d1d1ff;
   font-weight: bold;
 }
