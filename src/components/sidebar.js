@@ -6,18 +6,20 @@ import { Link } from 'react-router-dom';
 const SideBar = () => {
     return (
         <div className="sidebar">
-            <h2> **LOGO** </h2>
+            {/* <img src="../assets/LOGOCERTO.png"></img> */}
+            <img src="../assets/LOGOCERTO.png" alt="Logo da ETEC" className="sidebar-logo" />
+
             <ul>
                 <li><FaHome /><Link to="/">Página Inicial</Link></li>
                 <li><FaUser /><Link to="/user">Usuários</Link></li>
                 <li><FaKey /><Link to="/keys"> Chaves</Link></li>
-                <li><FaTools /> Equipamentos</li>
-                <li><FaClipboardList /> Reservas</li>
+                <li><FaTools /><Link to="/equipaments"> Equipamentos </Link> </li>
+                <li><FaClipboardList /><Link to="/reservation"> Reservas </Link></li>
                 <li></li>
                 <li></li>
                 <li></li>
                 <li></li>
-                <li></li>
+                <li></li>   
                 <li></li>
                 <li></li>
                 <li></li>

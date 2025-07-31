@@ -5,6 +5,9 @@ import Sidebar from './components/sidebar';
 import Home from './pages/Home';
 import User from './pages/User';
 import Keys from './pages/Keys';
+import Equipaments from './pages/Equipaments';
+import Reservation from './pages/Reservation';
+
 
 function App() {
   return (
@@ -16,6 +19,8 @@ function App() {
             <Route path="/" element={<Home />} />
             <Route path="/user" element={<User />} />
             <Route path="/Keys" element={<Keys />} />
+            <Route path="/Equipaments" element={<Equipaments />} />
+            <Route path="/Reservation" element={<Reservation />} />
           </Routes>
         </div>
       </div>

@@ -1,38 +1,37 @@
 import React from 'react';
-import './Keys.css';
+import './Equipaments.css';
 import SideBar from "../components/sidebar";
 
-function Keys() {
+function User() {
     return (
-        <div className="chaves-container">
-            <header className="chaves-header">
-                <h1>Chaves</h1>
+        <div className="equipamentos-container">
+            <header className="equipamentos-header">
+                <h1>Equipamentos</h1>
                 <span>Olá, Fulano de Tal!</span>
             </header>
 
-            <div className="chaves-filtros">
+            <div className="equipamentos-filtros">
                 <div>
-                    <h3>Ambiente:</h3>
-                    <input type="text" placeholder="Ambiente" />
+                    <h3>Equipamento:</h3>
+                    <input type="text" placeholder="Equipamento" />
                 </div>
                 <div>
                     <h3>Descrição:</h3>
                     <input type="text" placeholder="Descrição" />
                 </div>
-                
             </div>
 
-            <div className="chaves-acoes">
-                <button>Adicionar Chave</button>
+            <div className="equipamentos-acoes">
+                <button>Adicionar Equipamento</button>
                 <button>Pesquisar</button>
             </div>
 
-            <table className="chaves-tabela">
+            <table className="equipamentos-tabela">
                 <thead>
                     <tr>
                         <th>Código</th>
-                        <th>Nome</th>
-                        <th>Tp_usuário</th>
+                        <th>Equipamento</th>
+                        <th>Descrição</th>
                         <th>Editar</th>
                     </tr>
                 </thead>
@@ -51,4 +50,4 @@ function Keys() {
     );
 }
 
-export default Keys;
+export default User;
