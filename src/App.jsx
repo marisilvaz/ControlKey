@@ -1,5 +1,5 @@
 import React from 'react';
-import { BrowserRouter as Router, Routes, Route, useLocation } from 'react-router-dom';
+import { BrowserRouter as Router, Routes, Route, useLocation, BrowserRouter } from 'react-router-dom';
 
 import Sidebar from './components/sidebar';
 import Home from './pages/Home';
@@ -13,19 +13,19 @@ import Login from './pages/Login';
 function App() {
   const Location = useLocation();
   return (
-      <div className='app-container'>
-        {Location.pathname !=='/login' && <Sidebar />}
-        <div className='main-content'>
+    <div className='app-container'>
+      {Location.pathname !== '/' && <Sidebar />}
+      <div className='main-content'>
           <Routes>
-            <Route path="/" element={<Home />} />
-            <Route path="/user" element={<User />} />
+            <Route path="/Home" element={<Home />} />
+            <Route path="/User" element={<User />} />
             <Route path="/Keys" element={<Keys />} />
             <Route path="/Equipaments" element={<Equipaments />} />
             <Route path="/Reservation" element={<Reservation />} />
-            <Route path="/Login" element={<Login />} />
+            <Route path="/" element={<Login />} />
           </Routes>
-        </div>
       </div>
+    </div>
   );
 }
 

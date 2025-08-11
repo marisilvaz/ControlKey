@@ -27,7 +27,7 @@ class Cards extends Component {
 function Home() {
   return (
     <div style={{ display: "flex" }}>
-      <SideBar />
+      {/* <SideBar /> */}
 
       <div className="container" style={{ marginLeft: "250px", padding: "20px", flexGrow: 1 }}>
         <h1>Página Inicial</h1>
