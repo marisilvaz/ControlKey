@@ -1,10 +1,13 @@
-.usuarios-container {
+body {
   background-color: #e6f2f7;
+}
+
+
+.usuarios-container {
   margin-left: 200px;
   padding-left: 70px;
   padding-top: 30px;
-  /* height: 100vh;
-  overflow-y: auto; */
+  padding-right: 90px;
 }
 
 .usuarios-header {

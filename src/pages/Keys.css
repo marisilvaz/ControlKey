@@ -1,8 +1,13 @@
+body {
+  background-color: #e6f2f7;
+}
+
 .chaves-container {
   background-color: #e6f2f7;
   margin-left: 200px;
   padding-left: 70px;
   padding-top: 30px;
+  padding-right: 90px;
   /* height: 100vh;
   overflow-y: auto; */
 }
